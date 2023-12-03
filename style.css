@@ -561,3 +561,11 @@ a {
     background-color: white;
     border-radius: 50%;
 }
+.guncel-card{
+    width: 362px;
+    height: 481px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 2px 0 rgba(0, 0, 0, 0.19);
+}
