@@ -2,9 +2,11 @@
 <html lang="en">
 
 <head>
+    <!-- Full Name: Farid Aliyev -->
+    <!-- Group Number: Web Programming 1 - B -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anasayfa | Galatasaray Üniversitesi</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
@@ -12,770 +14,721 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body
-    style="background-image: url('ataturk.webp'); background-size: cover; background-position: top center; background-repeat: no-repeat; height: 300px; margin: 0; background-color: #F8F8F8;">
-    <div class="enUst">
-        <div class="enUst-left">
-            <img src="gese.png" alt="GS" class="logo" style="margin-left: 300px; margin-top: 40px;">
+<body>
+    <!-- Top section of the page, including the background image and university logo -->
+    <header class="my-heading">
+        <!-- Left side of the top section with the university logo -->
+        <div class="logo-c">
+            <img src="gese.png" alt="GS" class="logo">
         </div>
-        <div class="enUst-right">
-            <div class="enUst-right-ust" style="height: 50px; ">
-                <div class="enUst-ust-sol" style="width: 900px;  height: 50px; align-self: flex-start; display: flex;">
-                    <div class="menu-1" style="margin-left: 460px; margin-top:  10px;">
-                        <a href="" target="_self" class="baglanti" id="menu-1"><span>Öğrenci</span></a>
-                        <a href="" target="_self" class="baglanti" id="menu-1"><span>Personel</span></a>
-                        <a href="" target="_self" class="baglanti" id="menu-1"><span>Mezun</span></a>
-                        <a href="" target="_self" class="baglanti" id="menu-1"><span>Aday</span></a>
-                        <a href="" target="_self" class="baglanti" id="menu-1"><span>İletişim</span></a>
+        <!-- Right side of the top section with navigation links and language selector -->
+        <div class="my-navbar">
+            <!-- Upper navigation links for different user categories -->
+            <div class="navbar-h">
+                <div class="ogrenci-m">
+                    <a href="" target="_self" class="baglanti" id="menu-item-1"><span>Öğrenci</span></a>
+                    <a href="" target="_self" class="baglanti" id="menu-item-1"><span>Personel</span></a>
+                    <a href="" target="_self" class="baglanti" id="menu-item-1"><span>Mezun</span></a>
+                    <a href="" target="_self" class="baglanti" id="menu-item-1"><span>Aday</span></a>
+                    <a href="" target="_self" class="baglanti" id="menu-item-1"><span>İletişim</span></a>
+                </div>
+                <div class="enUst-ust-sag" style=" height: 50px; width:390px;">
+                </div>
+            </div>
+            <!--Various links in the navigation bar-->
+            <div class="navbar-h">
+                <div class="guncel-navbar">
+                    <div class="guncel-m">
+                        <a href="" target="_self" class="baglanti" id="menu-item-2"><span>Güncel</span></a>
+                        <a href="" target="_self" class="baglanti" id="menu-item-2"><span>Eğitim</span></a>
+                        <a href="" target="_self" class="baglanti" id="menu-item-2"><span>Araştırma</span></a>
+                        <a href="" target="_self" class="baglanti" id="menu-item-2"><span>İşbirliği</span></a>
+                        <a href="" target="_self" class="baglanti" id="menu-item-2"><span>Uluslararası</span></a>
+                        <a href="" target="_self" class="baglanti" id="menu-item-2"><span>Keşfet</span></a>
+                    </div>
+                    <div class="tr">
+                        <p class="lang-sel">
+                            TR
+                        </p>
+                        <i id="user-icon" class="fa">&#xf007;</i>
+                        <i class='fa-solid fa-magnifying-glass' id="glass-icon"></i>
                     </div>
                 </div>
-                <div class="enUst-ust-sag" style=" height: 50px; width:390px; flex-end;">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div style="margin-top: 650px;"></div>
+        <!-- Section for Academic Programs -->
+        <div class="card-container">
+            <div class="card">
+                <h1 class="box-head">Akademik Programlar</h1>
+                <p class="box-p1">12 lisans, 2 önlisans, 41 lisansüstü programda eğitim-öğretim faaliyetleri
+                    yürütülmektedir.</p>
+                <p class="box-p2" style="margin-top: 62px;">Akademik programları keşfet→</p>
+            </div>
+            <!-- Card 2: Academic Calendar -->
+            <div class="card">
+                <h1 class="box-head">Akademik Takvim</h1>
+                <p class="box-p1">2023 - 2024 Akademik Takvimi 2 Ekim 2023 Pazartesi günü başlayıp 24 Mayıs 2024 Cuma
+                    günü
+                    sona erecektir.</p>
+                <p class="box-p2">Akademik takvimi görüntüle→</p>
+            </div>
+            <!-- Card 3: Library Information -->
+            <div class="card">
+                <h1 class="box-head">Kütuphane</h1>
+                <p class="box-p1">Suna Kıraç Kütüphanesi 150000+ kitap, 1100+ periyodik basılı yayın, 675000+ elektronik
+                    yayına sahiplik yapmaktadır.</p>
+                <p class="box-p2">Kütuphaneye git→</p>
+            </div>
+        </div>
+        <br><br>
+        <!-- Introduction to Galatasaray University -->
+        <div style="margin-bottom: 80px;">
+            <p class="gs-intro">
+                Beş yüz yılı aşkın bir eğitim ve öğretim geçmişinin ulaştığı aşama: <span style="color: rgb(167, 3, 1);"
+                    class="my-underline">Galatasaray Üniversitesi</span>
+            </p>
+        </div>
+        <!-- Student Admission Section -->
+        <div class="ogrenci-kabulu">
+            <div class="ogrenci-sol">
+                <h1 class="ogrenci-h">Öğrenci Kabulu ve Başvuru</h1>
+            </div>
+            <div class="ogrenci-sag">
+                <div class="ogrenci-button">
+                    ⓘ Görüntüle
                 </div>
             </div>
-            <div class="enUst-right-alt" style="height: 50px;">
-                <div class="enUst-alt-sol" style="width: 900px; height: 50px; align-self: flex-start; display: flex;">
-                    <div class="menu-21"
-                        style="align-self: flex-start; margin-top: 10px; margin-left: 20px; width: 750px;">
-                        <a href="" target="_self" class="baglanti" id="menu-2"><span>Güncel</span></a>
-                        <a href="" target="_self" class="baglanti" id="menu-2"><span>Eğitim</span></a>
-                        <a href="" target="_self" class="baglanti" id="menu-2"><span>Araştırma</span></a>
-                        <a href="" target="_self" class="baglanti" id="menu-2"><span>İşbirliği</span></a>
-                        <a href="" target="_self" class="baglanti" id="menu-2"><span>Uluslarası</span></a>
-                        <a href="" target="_self" class="baglanti" id="menu-2"><span>Keşfet</span></a>
+        </div>
+        <!-- Latest Updates Section -->
+        <div class="guncel">
+            <div class="egitim-head">
+                Güncel
+            </div>
+            <div>
+                <div class="egitim-par">
+                    <div class="egitim-p" style="font-size: 14px; letter-spacing: 3px; font-weight: 700; opacity: 0.7;">
+                        GSÜ'DEN SON DUYURU, HABER VE ETKİNLİKLER
                     </div>
-                    <div class="menu-22" style="align-self: flex-end; display: flex; width: 150px;">
-                        <p
-                            style="margin-right: 5px; color: white; font-size: 20px; font-family: sans-serif; font-weight: bold; margin-top: 40px;">
-                            TR</p>
-                        <i style="font-size:24px; color: white; margin-top: 38px; margin-right: 16px; margin-left: 15px;"
-                            class="fa">&#xf007;</i>
-                        <i class='fa-solid fa-magnifying-glass' style="color: white; margin-top: 42px;"></i>
-                    </div>
-                </div>
-                <div class="enUst-alt-sag" style="height: 50px; width:390px; flex-end;">
                 </div>
             </div>
-        </div>
-    </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div class="card-container">
-        <div class="card">
-            <h1 class="box-head">Akademik Programlar</h1>
-            <p class="box-p1">12 lisans, 2 önlisans, 41 lisansüstü programda eğitim-öğretim faaliyetleri
-                yürütülmektedir.</p>
-            <p class="box-p2" style="margin-top: 62px;">Akademik programları keşfet</p>
-        </div>
-        <div class="card">
-            <h1 class="box-head">Akademik Takvim</h1>
-            <p class="box-p1">2023 - 2024 Akademik Takvimi 2 Ekim 2023 Pazartesi günü başlayıp 24 Mayıs 2024 Cuma günü
-                sona erecektir.</p>
-            <p class="box-p2" style="margin-top: 50px;">Akademik programları keşfet</p>
-        </div>
-        <div class="card">
-            <h1 class="box-head">Kütuphane</h1>
-            <p class="box-p1">Suna Kıraç Kütüphanesi 150000+ kitap, 1100+ periyodik basılı yayın, 675000+ elektronik
-                yayına sahiplik yapmaktadır.</p>
-            <p class="box-p2" style="margin-top: 50px;">Kütuphaneye git</p>
-        </div>
-    </div>
-    <br><br>
-    <div>
-        <p
-            style="margin-left: 480px; font-size: 1.6em; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 600; color: #333333;">
-            Beş yüz yılı aşkın bir eğitim ve öğretim geçmişinin ulaştığı aşama: <span style="color: rgb(167, 3, 1); text-decoration: underline; text-decoration-thickness: 1px;
-            text-underline-offset: 6px;">Galatasaray Üniversitesi</span></p>
-    </div>
-    <div class="ogrenci-kabulu">
-        <div class="ogrenci-sol">
-            <h1 class="ogrenci-h">Öğrenci Kabulu ve Başvuru</h1>
-        </div>
-        <div class="ogrenci-sag">
-            <div class="ogrenci-button">
-                ⓘ Görüntüle
-            </div>
-        </div>
-    </div>
-
-    <div class="guncel" style="background-color: #F8F8F8; height: 1400px; width: auto; background-image: url(back.webp); background-repeat: no-repeat;
-    background-position: bottom left;">
-        <div class="egitim-head">
-            Güncel
-        </div>
-        <div>
-            <div class="egitim-par">
-                <div class="egitim-p" style="font-size: 14px; letter-spacing: 3px; font-weight: 700;">
-                    GSÜ'DEN SON DUYURU, HABER VE ETKİNLİKLER
-                </div>
-            </div>
-        </div>
-        <div>
-            <div style="display: flex; justify-content: center;">
-                <div class="guncel-card" style="font-size: 15px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(105, 105, 105); font-weight: 600;">
-                    <ul id="myList10" style="margin-right: 8px;">
-                        <li class="myli" style="margin-top: 30px;">
-                            Cumhuriyet'ten bu yana yemek ve kültürel</li>
+            <div>
+                <div style="display: flex; justify-content: center;">
+                    <div class="guncel-card" id="guncel-news">
+                        <ul id="myList10" style="margin-right: 8px;">
+                            <!-- Latest Updates List -->
+                            <li class="myli" style="margin-top: 30px;">
+                                Cumhuriyet'ten bu yana yemek ve kültürel</li>
                             <li style="margin-left: 15px;">değişim / Cuisine et transformation culturelle</li>
                             <li style="margin-left: 15px; margin-bottom: 15px;">en Turquie depuis la republique</li>
-                        <li class="myli" style="margin-bottom: 15px;">Marşlarla Cumhuriyet Konseri</li>
-                        <li class="myli">Hukuk Felsefesi ve Hukuk Sosyolojisi</li>
-                        <li style="margin-left: 15px; margin-bottom: 15px;">Açısından Cumhuriyetin 100. Yılı</li>
-                        <li class="myli">İşletme seminerleri: Kodsuz yazılım ile </li>
-                        <li style="margin-left: 15px; margin-bottom: 15px;"> dijital dönüşüm</li>
-                        <li class="myli">
-                            Panel - Cumhuriyet'in Toplumsal Güçleri, </li>
+                            <li class="myli" style="margin-bottom: 15px;">Marşlarla Cumhuriyet Konseri</li>
+                            <li class="myli">Hukuk Felsefesi ve Hukuk Sosyolojisi</li>
+                            <li style="margin-left: 15px; margin-bottom: 15px;">Açısından Cumhuriyetin 100. Yılı</li>
+                            <li class="myli">İşletme seminerleri: Kodsuz yazılım ile </li>
+                            <li style="margin-left: 15px; margin-bottom: 15px;"> dijital dönüşüm</li>
+                            <li class="myli">
+                                Panel - Cumhuriyet'in Toplumsal Güçleri, </li>
                             <li style="margin-left: 15px; margin-bottom: 15px;">Cumhuriyetçiliğin Teorisi</li>
-                        <li class="myli">
-                            Erasmus+ 2024-2025 Öğrenci Öğrenim </li>
-                            <li style="margin-left: 15px; margin-bottom: 15px;">Hareketliliği Başvuruları 1. Çağrı İlanı</li>
-                        <li class="myli">Siber Güvenlik ve Hukuk</li>
-                    </ul>
-                </div>
-                <div class="guncel-card">
-                    <div
-                        style="width: 362px; height: 225px; background-image: url('kapak.jpg'); border-top-right-radius: 8px; border-top-left-radius: 8px; background-size: cover;">
+                            <li class="myli">
+                                Erasmus+ 2024-2025 Öğrenci Öğrenim </li>
+                            <li style="margin-left: 15px; margin-bottom: 15px;">Hareketliliği Başvuruları 1. Çağrı İlanı
+                            </li>
+                            <li class="myli">Siber Güvenlik ve Hukuk</li>
+                        </ul>
                     </div>
-                    <div style="width: 362px; height: 200px; background-color: #F8F8F8;">
-                        <ul id="myList10">
-                            <li
-                                style="color: (51, 51, 51); font-size: 18px; font-weight: 600; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                La situation en Ukraine et ses leçons</li>
+                    <!-- News Card 1: Situation in Ukraine and its Lessons -->
+                    <div class="guncel-card">
+                        <div
+                            style="width: 362px; height: 225px; background-image: url('kapak.jpg'); border-top-right-radius: 8px; border-top-left-radius: 8px; background-size: cover;">
+                        </div>
+                        <div style="width: 362px; height: 200px; background-color: #F8F8F8;">
+                            <ul id="myList11">
+                                <!-- News Title -->
+                                <li class="text-french">
+                                    La situation en Ukraine et ses leçons</li>
+                                <li class="text-french">de droit humanitaire</li>
+                                <!-- News Date -->
+                                <li class="text-grey"> 04 Aralık 2023 09.30 </li>
+                                <!-- Location -->
+                                <li class="text-grey" style="font-weight: 400;">Aydın Doğan Oditoryumu</li>
+                                <!-- View More Link -->
+                                <li>
+                                    <div class="egitim-hakkinda" style=" font-size: 14px; margin-right: 190px;">
+                                        Etkinliği görüntüle →
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- News Link -->
+                        <div class="haberi-goruntule">
+                            Haberi görüntüle→
+                        </div>
+                    </div>
+                    <!-- News Card 2: Intellectual Property Disputes and Arbitration -->
+                    <div class="guncel-card">
+                        <!-- Card Image -->
+                        <div style="background-image: url('fikir.webp');" class="card-image">
+                        </div>
+                        <!-- Card Content -->
+                        <div style="width: 362px; height: 200px; background-color: #F8F8F8;">
+                            <ul id="myList12">
+                                <!-- News Title -->
+                                <li style="color: (51, 51, 51); font-size: 18px; font-weight: 600;">
+                                    Fikri Mülkiyet Uyuşmazlıklarında Tahkim ve Alternatif Uyuşmazlık Çözüm Yolları
+                                </li>
+                                <!-- News Date -->
+                                <li style="color: #a70301; font-size: 15px; font-weight: 500;">
+                                    06 Aralık 2023 10.00</li>
+                                <!-- Location -->
+                                <li style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400;">
+                                    Aydın Doğan Konferans Salonu
+                                </li>
+                                <li>
+                                    <div class="egitim-hakkinda" style=" font-size: 14px; margin-right: 190px;">
+                                        Etkinliği görüntüle →
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- News Link -->
+                        <div class="haberi-goruntule">Haberi görüntüle→</div>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: center;">
+                    <div class="guncel-card">
+                        <div style="background-image: url('imaj.jpg');" class="card-image">
+                        </div>
+                        <div style="width: 362px; height: 200px; background-color: #F8F8F8;">
+                            <ul id="myList5">
+                                <li style="color: (51, 51, 51); font-size: 18px; font-weight: 600;">
+                                    01 Aralık 2023</li>
+                                <li class="gs-red">Galatasaray Üniversitesi</li>
                                 <li
-                                style="color: (51, 51, 51); font-size: 18px; font-weight: 600; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                de droit humanitaire</li>
-                            <li
-                                style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 500; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: 10px;">
-                                04 Aralık 2023 09.30 </li>
-                            <li
-                                style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: 10px;">
-                                Aydın Doğan Oditoryumu 
-                            </li>
-                            <li>
-                                <div class="egitim-hakkinda" style=" font-size: 14px; margin-right: 190px;">
-                                    Etkinliği görüntüle →
-                                </div>
-                            </li>
-                        </ul>
+                                    style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400; margin-top: 10px;">
+                                    “Cumhuriyet’in Toplumsal Güçleri,
+                                </li>
+                                <li style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400;">
+                                    Cumhuriyetçiliğin Teorisi” paneli düzenlendi
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="haberi-goruntule">Haberi görüntüle→</div>
                     </div>
-                    <div
-                        style="width: 362px; height: 56px; color: #a70301; font-size: 14px; font-weight: 600; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  display: flex; align-items: center; justify-content: center; background-color: #F8F8F8; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">
-                        Haberi görüntüle→
+                    <div class="guncel-card">
+                        <div style="background-image: url('imaj2.jpg');" class="card-image">
+                        </div>
+                        <div style="width: 362px; height: 200px; background-color: #F8F8F8;">
+                            <ul id="myList6">
+                                <li style="color: (51, 51, 51); font-size: 18px; font-weight: 600; ">
+                                    24 Kasım 2023</li>
+                                <li class="gs-red">Galatasaray Üniversitesi</li>
+                                <li style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400; ">
+                                    Yapay zekânın medyaya etkisi TEKİL18'de
+                                </li>
+                                <li style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400; ">
+                                    tartışıldı
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="haberi-goruntule">Haberi görüntüle→</div>
                     </div>
-                </div>
-                <div class="guncel-card">
-                    <div
-                        style="width: 362px; height: 225px; background-image: url('fikir.webp'); border-top-right-radius: 8px; border-top-left-radius: 8px; background-size: cover;">
+                    <!-- News Card 3 -->
+                    <div class="guncel-card">
+                        <!-- Card Image -->
+                        <div style="background-image: url('imaj7.jpg');" class="card-image">
+                        </div>
+                        <!-- Card Content -->
+                        <div style="width: 362px; height: 200px; background-color: #F8F8F8;">
+                            <ul id="myList7">
+                                <!-- Date -->
+                                <li style="color: (51, 51, 51); font-size: 18px; font-weight: 600;">
+                                    24 Kasım 2023</li>
+                                <!-- Date -->
+                                <li class="gs-red">Galatasaray Üniversitesi</li>
+                                <!-- Event Details -->
+                                <li style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400;">
+
+                                    “Cumhuriyet’in 100. Yılı - Cumhuriyetten
+                                </li>
+                                <li style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400;">
+                                    Bu Yana Yemek ve Kültürel Değişim” (Centenaire de la République - Cuisine et
+                                    Transformatio...
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="haberi-goruntule">Haberi görüntüle→</div>
                     </div>
-                    <div style="width: 362px; height: 200px; background-color: #F8F8F8;">
-                        <ul id="myList12">
-                            <li
-                                style="color: (51, 51, 51); font-size: 18px; font-weight: 600; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                Fikri Mülkiyet Uyuşmazlıklarında Tahkim ve Alternatif Uyuşmazlık Çözüm Yolları  
-                            </li>
-                            <li
-                                style="color: #a70301; font-size: 15px; font-weight: 500; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: 10px;">
-                                06 Aralık 2023 10.00</li>
-                            <li
-                                style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: 10px;">
-                                Aydın Doğan Konferans Salonu
-                            </li>
-                            <li>
-                                <div class="egitim-hakkinda" style=" font-size: 14px; margin-right: 190px;">
-                                    Etkinliği görüntüle →
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div
-                        style="width: 362px; height: 56px; color: #a70301; font-size: 14px; font-weight: 600; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  display: flex; align-items: center; justify-content: center; background-color: #F8F8F8; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">
-                        Haberi görüntüle→</div>
                 </div>
             </div>
+            <!-- Pagination Dots -->
+            <div class="pagination-d">
+                <!-- Active Dot -->
+                <div class="circle" style="height: 10px; width: 10px; background-color: #a70301;"></div>
+                <!-- Inactive Dots -->
+                <div class="inactive-c"></div>
+                <div class="inactive-c"></div>
+                <div class="inactive-c"></div>
+                <div class="inactive-c"></div>
+                <div class="inactive-c"></div>
+                <div class="inactive-c"></div>
+                <div class="inactive-c"></div>
+                <div class="inactive-c"></div>
+            </div>
+            <!-- View All News Link -->
+            <div class="egitim-hakkinda" style="margin-top: 70px;">
+                Üniversitemizdeki tüm gelişmeleri görüntüle →
+            </div>
+        </div>
+        <!-- Education Section -->
+        <div class="GSU-Egitim">
+            <!-- Section Heading -->
+            <div class="egitim-head">
+                GSÜ'de <span style="color: #a70301; margin-left: 15px;">Eğitim</span>
+            </div>
+            <div class="egitim-par">
+                <!-- Section Paragraph -->
+                <div class="egitim-p">
+                    Galatasaray Üniversitesi’nde eğitim-öğretim 3 ayrı düzeyde (ön lisans, lisans, lisansüstü), 55
+                    farklı
+                    programda, 350+ akademik personel, her dönem açılan 1000+ fazla ders ve bu derslere kayıt olan 4500+
+                    öğrenci ile yürütülmektedir.
+                </div>
+            </div>
+            <!-- Education Cards -->
+            <div class="egitim-cards">
+                <!-- Card 1: Undergraduate Education -->
+                <div class="egitim-c">
+                    <div class="egitim-ci" style="background-image: url('img-1.webp');">
+                        <div style="margin-bottom: 20px;">Lisans Eğitimi</div>
+                    </div>
+                    <div class="egitim-cp">
+                        GSÜ'de lisan eğitimi, 5 fakültede 12 farklı programla yürütülmektedir.
+                    </div>
+                </div>
+                <!-- Card 2: Associate Degree Education -->
+                <div class="egitim-c">
+                    <div class="egitim-ci" style="background-image: url('img-2.webp');">
+                        <div style="margin-bottom: 20px;">Önlisans Eğitimi</div>
+                    </div>
+                    <div class="egitim-cp">
+                        Denizcilik Meslek Yüksekokulu bünyesinde 2 farklı program ile önlisans eğitimi yürütülmektedir.
+                    </div>
+                </div>
+                <!-- Card 3: Graduate Education -->
+                <div class="egitim-c">
+                    <div class="egitim-ci" style="background-image: url('img-3.webp');">
+                        <div style="margin-bottom: 20px;">Lisansüstü Eğitimi</div>
+                    </div>
+                    <div class="egitim-cp">
+                        GSÜ'de lisansüstü eğitim 2 farklı enstitüde 41 farklı program ile yürütülmektedir.
+                    </div>
+                </div>
+            </div>
+            <!-- Section Footer -->
+            <div class="egitim-foot">
+                Fakülteler | Yüksekokullar | Enstitüler | Tüm Programlar
+            </div>
+            <!-- More Information Link -->
+            <div class="egitim-hakkinda">
+                Eğitim hakkında detaylı bilgi →
+            </div>
+        </div>
+        <!-- Career Section -->
+        <div class="kariyer">
+            <!-- Career Description 1 -->
+            <div class="kariyer-d1">
+                <div class="kariyer-h">
+                    <div style="margin-left:62px">Kariyer Geliştirme Uygulama ve Araştırma Merkezi</div>
+                </div>
+                <div class="kariyer-p">Öğrencilere ve mezunlara kariyer planlama ve geliştirme alanında danışmanlık
+                    yapmakta, onların mesleki yeterliklerini artırmalarını ve alanlarındaki yeni gelişmeleri takip
+                    etmelerini sağlayacak eğitimleri vermekte ve öğrencilerin staj yapabilecekleri kurum ve kuruluşlarla
+                    bağlantı kurmalarını sağlamaktadır.</div>
+            </div>
+            <!-- Career Description 2 -->
+            <div class="kariyer-d2">
+                <!-- Career Image -->
+                <div
+                    style="background-image: url('img-4.webp'); background-size: cover; height: 241px; width: 172px; border-radius: 5px;">
+                </div>
+                <!-- Detail Information Link -->
+                <div class="detayli-bilgi">
+                    Detaylı Bilgi
+                </div>
+            </div>
+        </div>
+        <!-- Research Section -->
+        <div class="arastirma">
+            <!-- Section Title -->
+            <div class="mine-helper">
+                <div style="margin-top: 40px;">Araştırma</div>
+            </div>
+            <!-- Section Paragraph -->
+            <div class="arastirma-p ">
+                <div style="width: 1176px; height: 102px; text-align: center; margin-top: 40px;">Galatasaray
+                    Üniversitesi
+                    nitelikli ve iyi
+                    yetişmiş araştırmacıları, araştırma laboratuvarları, öz kaynaklarından araştırmaya ayırdığı bütçe ve
+                    dış
+                    kaynaklardan elde ettiği araştırma hibe büyüklükleri ile ülkemizin rekabetçi araştırma
+                    üniversitelerinden biri olmayı hedeflemektedir.</div>
+            </div>
+            <!-- Research Statistics -->
+            <div class="arastirma-r" style="margin-top: 50px;">
+                <!-- Researcher Card -->
+                <div class="arastirma-card">
+                    <div class="arastirma-nmbr">350</div>
+                    <div class="arastirma-grey">ARAŞTIRMACI</div>
+                </div>
+                <!-- Laboratory Card -->
+                <div class="arastirma-card">
+                    <div class="arastirma-nmbr">15</div>
+                    <div class="arastirma-grey">LABORATUVAR</div>
+                </div>
+                <!-- Research and Application Center Card -->
+                <div class="arastirma-card">
+                    <div class="arastirma-nmbr">19</div>
+                    <div class="arastirma-grey">ARAŞTIRMA VE UYGULAMA MERKEZİ</div>
+                </div>
+                <!-- Project Card -->
+                <div class="arastirma-card">
+                    <div class="arastirma-nmbr">543</div>
+                    <div class="arastirma-grey">PROJE</div>
+                </div>
+            </div>
+            <!-- More Information Link -->
+            <div class="egitim-hakkinda" style="margin-top: 90px;">
+                Araştırma hakkında detaylı bilgi →
+            </div>
+        </div>
+        <!-- Collaboration Section -->
+        <div class="isbirligi">
+            <!-- Collaboration Heading -->
+            <div class="isbirligi-h">İşbirliği</div>
+            <div style="display: flex; justify-content: center; margin-top: 30px;">
+                <!-- Collaboration Paragraph -->
+                <div class="isbirligi-p">
+                    Galatasaray Üniversitesi paydaşlarla işbirliği çerçevesinde, kurumsal ölçekte bir yapılanmayla ve
+                    teknolojik olanaklar yardımıyla topluma katkı işlevini yerine getirmektedir. Üniversite-sanayi iş
+                    birliği kapsamında, Üniversitedeki bilgi birikimi ve teknolojinin toplumun ihtiyaç duyduğu ürün veya
+                    süreçlere dönüştürülmesini sağlamaktadır.
+                </div>
+            </div>
+            <!-- Collaboration Footer -->
+            <div class="isbirligi-f" style="display: flex; justify-content: center;">
+                Toplumsal Katkı | Üniversite Sanayi İşbirliği
+            </div>
+            <!-- More Information Link -->
+            <div class="egitim-hakkinda" style="margin-top: 50px;">
+                İşbirlikleri ile ilgili daha fazla bilgi görüntüle →
+            </div>
+        </div>
+        <!-- International Section -->
+        <div class="uluslararasi">
+            <div class="uluslararasi-h">Uluslararası</div>
+            <!-- Flex container for international information -->
+            <div style="display: flex; justify-content: center; margin-top: 30px;">
+                <!-- Left side content -->
+                <div class="uluslararasi-p">
+                    <div class="upl">
+                        <!-- Subsection with specific styling -->
+                        <div
+                            style="height: 96px; width: 350px; display: flex; align-items: center; justify-content: center;">
+                            <div class="upl-11">130</div>
+                            <div class="upl-12">ULUSLARARASI ANLAŞMALI ÜNİVERSİTE</div>
+                        </div>
+                        <!-- Additional information -->
+                        <div style="color: rgb(51, 51, 51); font-size: 18px; font-weight: 700; margin-top: 20px;">
+                            *2023-Ağustos verileri ile</div>
+                    </div>
+                    <!-- Right side content -->
+                    <div class="upr">
+                        <div class="upr-1">Türkiye ve Fransa arasında akdedilen uluslararası anlaşma temelinde
+                            yapılandırılan Galatasaray Üniversitesi, kuruluşunun ilk gününden beri uluslararası olma
+                            vizyonuna sahiptir. Çokkültürlü yaşam ve kültürlerarası etkileşim deneyimini yerleşkede
+                            sağlamak, kültürlerarası yetkinliğe ve dünyalılık bilincine sahip bireyler yetiştirmek üzere
+                            eğitim, araştırma ve topluma katkı boyutlarında uluslararası işbirlikleri kurulmakta,
+                            geliştirilmekte ve çeşitlendirilmektedir.</div>
+                        <div class="upr-2">Detaylı bilgi→</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Research section -->
+            <div class="arastirma-r">
+                <!-- Research cards -->
+                <div class="arastirma-card">
+                    <div class="arastirma-nmbr">327</div>
+                    <div class="arastirma-grey">GELEN ÖĞRENCİ</div>
+                </div>
+                <div class="arastirma-card">
+                    <div class="arastirma-nmbr">174</div>
+                    <div class="arastirma-grey">GİDEN ÖĞRENCİ</div>
+                </div>
+                <div class="arastirma-card">
+                    <div class="arastirma-nmbr">374</div>
+                    <div class="arastirma-grey">ULUSLARARASI ARAŞTIRMA</div>
+                </div>
+                <!-- ... (similar structure for other research cards) -->
+            </div>
+            <!-- More information link -->
+            <div class="egitim-hakkinda" style="margin-top: 50px;">
+                Uluslararasılıkla ilgili daha fazla bilgi →
+            </div>
+        </div>
+        <!-- Exploration Section -->
+        <div class="kesfet">
+            <div class="kesfet-h">Keşfet</div>
+            <!-- Flex container for exploration content -->
+            <div style="display: flex; justify-content: center; margin-top: 30px;">
+                <!-- Content about collaboration -->
+                <div class="isbirligi-p">
+                    Galatasaray Üniversitesi Yerleşkesi, Avrupa ve Asya kıtalarının birleştiği İstanbul şehrinin
+                    muhteşem
+                    Boğazının kenarında ve ulaşım açısından en merkezi ilçelerinden biri olan Beşiktaş’tadır. Kentin
+                    ekonomik, sosyal ve kültürel merkezlerine çok kısa mesafede olması üniversite hayatı için yerleşkeyi
+                    eşsiz kılmaktadır. Beş yüz yılı aşkın bir geçmişe sahip eğitim ve öğretim yapılanmasının ulaştığı
+                    son
+                    aşamayı temsil eden Galatasaray Üniversitesinin üyesi olmak şüphesiz bir ayrıcalıktır.
+                </div>
+            </div>
+            <!-- Cards for exploration -->
             <div style="display: flex; justify-content: center;">
-                <div class="guncel-card">
-                    <div
-                        style="width: 362px; height: 225px; background-image: url('imaj.jpg'); border-top-right-radius: 8px; border-top-left-radius: 8px;">
-                    </div>
-                    <div style="width: 362px; height: 200px; background-color: #F8F8F8;">
-                        <ul id="myList5">
-                            <li
-                                style="color: (51, 51, 51); font-size: 18px; font-weight: 600; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                01 Aralık 2023</li>
-                            <li
-                                style="color: #a70301; font-size: 15px; font-weight: 500; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: 10px;">
-                                Galatasaray Üniversitesi</li>
-                            <li
-                                style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: 10px;">
-                                “Cumhuriyet’in Toplumsal Güçleri,
-                            </li>
-                            <li
-                                style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                Cumhuriyetçiliğin Teorisi” paneli düzenlendi
-                            </li>
-                        </ul>
-                    </div>
-                    <div
-                        style="width: 362px; height: 56px; color: #a70301; font-size: 14px; font-weight: 600; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  display: flex; align-items: center; justify-content: center; background-color: #F8F8F8; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">
-                        Haberi görüntüle→</div>
+                <div class="kesfet-card" style="background-image: url('img-5.webp');">
+                    <div style="margin-top: 280px;">Tarihçe</div>
                 </div>
-                <div class="guncel-card">
-                    <div
-                        style="width: 362px; height: 225px; background-image: url('imaj2.jpg'); border-top-right-radius: 8px; border-top-left-radius: 8px; background-size: cover;">
-                    </div>
-                    <div style="width: 362px; height: 200px; background-color: #F8F8F8;">
-                        <ul id="myList6">
-                            <li
-                                style="color: (51, 51, 51); font-size: 18px; font-weight: 600; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                24 Kasım 2023</li>
-                            <li
-                                style="color: #a70301; font-size: 15px; font-weight: 500; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: 10px;">
-                                Galatasaray Üniversitesi</li>
-                            <li
-                                style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: 10px;">
-                                Yapay zekânın medyaya etkisi TEKİL18'de
-                            </li>
-                            <li
-                                style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                tartışıldı
-                            </li>
-                        </ul>
-                    </div>
-                    <div
-                        style="width: 362px; height: 56px; color: #a70301; font-size: 14px; font-weight: 600; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  display: flex; align-items: center; justify-content: center; background-color: #F8F8F8; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">
-                        Haberi görüntüle→</div>
+                <div class="kesfet-card" style="background-image: url('img-6.webp'); width: 576px;">
+                    <div style="margin-top: 280px;">Yerleşkede Yaşam</div>
                 </div>
-                <div class="guncel-card">
-                    <div
-                        style="width: 362px; height: 225px; background-image: url('imaj7.jpg'); border-top-right-radius: 8px; border-top-left-radius: 8px; background-size: cover;">
+                <div class="kesfet-card" style="background-image: url('img-7.webp');">
+                    <div style="margin-top: 280px">Ulaşım</div>
+                </div>
+                <!-- ... (similar structure for other exploration cards) -->
+            </div>
+            <!-- Research card in exploration section -->
+            <div class="arastirma-r">
+                <!-- Research Card: Establishment Year -->
+                <div class="arastirma-card">
+                    <div class="arastirma-nmb">1994</div>
+                    <div class="arastirma-grey">KURULUŞ</div>
+                </div>
+                <!-- Research Card: Number of Students -->
+                <div class="arastirma-card">
+                    <div class="arastirma-nmb">4456</div>
+                    <div class="arastirma-grey">ÖĞRENCİ</div>
+                </div>
+                <!-- Research Card: Graduate Count -->
+                <div class="arastirma-card">
+                    <div class="arastirma-nmb">15343</div>
+                    <div class="arastirma-grey">MEZUN</div>
+                </div>
+            </div>
+            <!-- Button to Explore Galatasaray Üniversitesi -->
+            <div class="kesfet-btn">Galatasaray Üniversitesi'ni Keşfet</div>
+        </div>
+        <!-- Information Section -->
+        <div class="bilgi">
+            <div class="bilgi-helper">
+                <!-- First Information Card: Sürekli Eğitim Merkezi -->
+                <div class="bilgi-card">
+                    <div class="ozellik-card">
+                        <div class="bc-h">
+                            <div style="background-image: url('img-10.png'); width: 48px;" class="bc-img">
+                            </div>
+                            <div class="bc-header">Sürekli Eğitim
+                                Merkezi</div>
+                        </div>
+                        <div class="bc-p">
+                            GSÜSEM tarafından yapılan sertifika programlarını detaylarına SEM sayfasında dönüşümlü
+                            şekilde
+                            yer verilmektedir.
+                        </div>
                     </div>
-                    <div style="width: 362px; height: 200px; background-color: #F8F8F8;">
-                        <ul id="myList7">
-                            <li
-                                style="color: (51, 51, 51); font-size: 18px; font-weight: 600; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                24 Kasım 2023</li>
-                            <li
-                                style="color: #a70301; font-size: 15px; font-weight: 500; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: 10px;">
-                                Galatasaray Üniversitesi</li>
-                            <li
-                                style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: 10px;">
+                </div>
+                <!-- Second Information Card: AVESİS -->
+                <div class="bilgi-card">
+                    <div class="ozellik-card">
+                        <div class="bc-h">
+                            <div style="background-image: url('img-15\ \(2\).png');" class="bc-img"></div>
+                            <div class="bc-header">AVESİS</div>
+                        </div>
+                        <div class="bc-p">
+                            Akademik etkinlik envanteri çıkarılması, kurum, birim, bölüm ve kişi performansları
+                            ölçülerek
+                            değerlendirilebilmesi işlemleri yapılmaktadır.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bilgi-helper">
+                <!-- Third Information Card: Yabancı Dil Eğitimi -->
+                <div class="bilgi-card">
+                    <div class="ozellik-card">
+                        <div class="bc-h">
+                            <div style="background-image: url('img-16.png');" class="bc-img"></div>
+                            <div class="bc-header">Yabancı Dil Eğitimi</div>
+                        </div>
+                        <div class="bc-p">
+                            Yabancı Diller Yüksekokulu ve Kurs Merkezi ile sunulan yabancı dil olanakları hakkında
+                            ayrıntılı
+                            bilgilere web sitelerinden ulaşabilirsiniz.Yabancı Diller Yüksekokulu ve Kurs Merkezi ile
+                            sunulan yabancı dil olanakları hakkında ayrıntılı bilgilere web sitelerinden
+                            ulaşabilirsiniz.
+                        </div>
+                    </div>
+                </div>
+                <!-- Information Card: Kalite -->
+                <div class="bilgi-card">
+                    <div class="ozellik-card">
+                        <div class="bc-h">
+                            <div style="background-image: url('img-17.png'); height: 65px;" class="bc-img"></div>
+                            <div class="bc-header">Kalite</div>
+                        </div>
+                        <div class="bc-p">
+                            Üniversite süreçlerinin değerlendirilmesi, geliştirilmesi, bağımsız dış değerlendirme
+                            süreciyle
+                            kalite düzeylerinin onaylanması ve tanınması konusundaki çalışmaları planlamak üzere
+                            kurulmuştur.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bilgi-helper">
+                <!-- Information Cards: Mevzuat and Engelsiz Üniversite Birimi -->
+                <div class="bilgi-card">
+                    <div class="ozellik-card">
+                        <div class="bc-h">
+                            <div style="background-image: url('img-18.png');" class="bc-img">
+                            </div>
+                            <div class="bc-header">Mevzuat</div>
+                        </div>
+                        <div class="bc-p">
+                            Üniversitemize ait mevzuatların listesine KAYSİS üzerinden erişim sağlanmaktadır.
+                        </div>
+                    </div>
+                </div>
+                <!-- Information Card: Engelsiz Üniversite Birimi -->
+                <div class="bilgi-card">
+                    <div class="ozellik-card">
+                        <div class="bc-h">
+                            <div style="background-image: url('img-19.png'); width: 48px;" class="bc-img">
+                            </div>
+                            <div class="bc-header">Engelsiz
+                                Üniversite Birimi</div>
+                        </div>
+                        <div class="bc-p">
+                            Engelsiz Üniversite Birimi, engelli öğrenciler ile etkinlikler düzenlemektedir.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
-                                “Cumhuriyet’in 100. Yılı - Cumhuriyetten
-                            </li>
-                            <li
-                                style="color: rgb(105, 105, 105); font-size: 15px; font-weight: 400; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                                Bu Yana Yemek ve Kültürel Değişim” (Centenaire de la République - Cuisine et
-                                Transformatio...
-                            </li>
-                        </ul>
-                    </div>
-                    <div
-                        style="width: 362px; height: 56px; color: #a70301; font-size: 14px; font-weight: 600; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  display: flex; align-items: center; justify-content: center; background-color: #F8F8F8; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">
-                        Haberi görüntüle→</div>
-                </div>
-            </div>
-        </div>
-        <div style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
-            <div class="circle" style="height: 10px; width: 10px; background-color: #a70301;"></div>
-            <div class="circle" style="height: 8px; width: 8px; background-color: grey; margin-left: 8px;"></div>
-            <div class="circle" style="height: 8px; width: 8px; background-color: grey; margin-left: 8px;"></div>
-            <div class="circle" style="height: 8px; width: 8px; background-color: grey; margin-left: 8px;"></div>
-            <div class="circle" style="height: 8px; width: 8px; background-color: grey; margin-left: 8px;"></div>
-            <div class="circle" style="height: 8px; width: 8px; background-color: grey; margin-left: 8px;"></div>
-            <div class="circle" style="height: 8px; width: 8px; background-color: grey; margin-left: 8px;"></div>
-            <div class="circle" style="height: 8px; width: 8px; background-color: grey; margin-left: 8px;"></div>
-            <div class="circle" style="height: 8px; width: 8px; background-color: grey; margin-left: 8px;"></div>
-        </div>
-        <div class="egitim-hakkinda" style="margin-top: 70px;">
-            Üniversitemizdeki tüm gelişmeleri görüntüle →
-        </div>
-    </div>
-    <div class="GSU-Egitim">
-        <div class="egitim-head">
-            GSÜ'de <span style="color: #a70301; margin-left: 15px;">Eğitim</span>
-        </div>
-        <div class="egitim-par">
-            <div class="egitim-p">
-                Galatasaray Üniversitesi’nde eğitim-öğretim 3 ayrı düzeyde (ön lisans, lisans, lisansüstü), 55 farklı
-                programda, 350+ akademik personel, her dönem açılan 1000+ fazla ders ve bu derslere kayıt olan 4500+
-                öğrenci ile yürütülmektedir.
-            </div>
-        </div>
-        <div class="egitim-cards">
-            <div class="egitim-c">
-                <div class="egitim-ci" style="background-image: url('img-1.webp'); background-size: cover;">
-                    <div style="margin-bottom: 20px;">Lisans Eğitimi</div>
-                </div>
-                <div class="egitim-cp">
-                    GSÜ'de lisan eğitimi, 5 fakültede 12 farklı programla yürütülmektedir.
-                </div>
-            </div>
-            <div class="egitim-c">
-                <div class="egitim-ci" style="background-image: url('img-2.webp'); background-size: cover;">
-                    <div style="margin-bottom: 20px;">Önlisans Eğitimi</div>
-                </div>
-                <div class="egitim-cp">
-                    Denizcilik Meslek Yüksekokulu bünyesinde 2 farklı program ile önlisans eğitimi yürütülmektedir.
-                </div>
-            </div>
-            <div class="egitim-c">
-                <div class="egitim-ci" style="background-image: url('img-3.webp'); background-size: cover;">
-                    <div style="margin-bottom: 20px;">Lisansüstü Eğitimi</div>
-                </div>
-                <div class="egitim-cp">
-                    GSÜ'de lisansüstü eğitim 2 farklı enstitüde 41 farklı program ile yürütülmektedir.
-                </div>
-            </div>
-        </div>
-        <div class="egitim-foot">
-            Fakülteler | Yüksekokullar | Enstitüler | Tüm Programlar
-        </div>
-        <div class="egitim-hakkinda">
-            Eğitim hakkında detaylı bilgi →
-        </div>
-    </div>
-    <div class="kariyer">
-        <div class="kariyer-d1">
-            <div class="kariyer-h">
-                <div style="margin-left:62px">Kariyer Geliştirme Uygulama ve Araştırma Merkezi</div>
-            </div>
-            <div class="kariyer-p">Öğrencilere ve mezunlara kariyer planlama ve geliştirme alanında danışmanlık
-                yapmakta, onların mesleki yeterliklerini artırmalarını ve alanlarındaki yeni gelişmeleri takip
-                etmelerini sağlayacak eğitimleri vermekte ve öğrencilerin staj yapabilecekleri kurum ve kuruluşlarla
-                bağlantı kurmalarını sağlamaktadır.</div>
-        </div>
-        <div class="kariyer-d2">
-            <div
-                style="background-image: url('img-4.webp'); background-size: cover; height: 241px; width: 172px; border-radius: 5px;">
-            </div>
-            <div
-                style="width: 280px; height: 54px; background-color: rgb(255, 255, 255); display: flex; justify-content: center; align-items: center; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: rgb(167, 3, 1); font-weight: 600; border-radius: 5px;">
-                Detaylı Bilgi
-            </div>
-        </div>
-    </div>
-    <div class="arastirma">
-        <div
-            style="font-size: 40px; color: #333333; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 700; height: 57px; width: auto; display: flex; justify-content: center; text-align: center;">
-
-            <div style="margin-top: 40px;">Araştırma</div>
-        </div>
-        <div class="arastirma-p ">
-            <div style="width: 1176px; height: 102px; text-align: center; margin-top: 40px;">Galatasaray Üniversitesi
-                nitelikli ve iyi
-                yetişmiş araştırmacıları, araştırma laboratuvarları, öz kaynaklarından araştırmaya ayırdığı bütçe ve dış
-                kaynaklardan elde ettiği araştırma hibe büyüklükleri ile ülkemizin rekabetçi araştırma
-                üniversitelerinden biri olmayı hedeflemektedir.</div>
-        </div>
-        <div class="arastirma-r" style="margin-top: 50px;">
-            <div class="arastirma-card">
-                <div
-                    style="color: rgb(167, 3, 1); font-size: 56px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 700; text-align: center;">
-                    350</div>
-                <div
-                    style="color: rgb(126, 126, 126); font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center; font-weight: 700; margin-top: 10px;">
-                    ARAŞTIRMACI</div>
-            </div>
-            <div class="arastirma-card">
-                <div
-                    style="color: rgb(167, 3, 1); font-size: 56px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 700; text-align: center;">
-                    15</div>
-                <div
-                    style="color: rgb(126, 126, 126); font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center; font-weight: 700; margin-top: 10px;">
-                    LABORATUVAR</div>
-            </div>
-            <div class="arastirma-card">
-                <div
-                    style="color: rgb(167, 3, 1); font-size: 56px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 700; text-align: center;">
-                    19</div>
-                <div
-                    style="color: rgb(126, 126, 126); font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center; font-weight: 700; margin-top: 10px;">
-                    ARAŞTIRMA VE UYGULAMA MERKEZİ</div>
-            </div>
-            <div class="arastirma-card">
-                <div
-                    style="color: rgb(167, 3, 1); font-size: 56px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 700; text-align: center;">
-                    543</div>
-                <div
-                    style="color: rgb(126, 126, 126); font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center; font-weight: 700; margin-top: 10px;">
-                    PROJE</div>
-            </div>
-        </div>
-        <div class="egitim-hakkinda" style="margin-top: 90px;">
-            Araştırma hakkında detaylı bilgi →
-        </div>
-    </div>
-    <div class="isbirligi">
-        <div class="isbirligi-h">İşbirliği</div>
-        <div style="display: flex; justify-content: center; margin-top: 30px;">
-            <div class="isbirligi-p">
-                Galatasaray Üniversitesi paydaşlarla işbirliği çerçevesinde, kurumsal ölçekte bir yapılanmayla ve
-                teknolojik olanaklar yardımıyla topluma katkı işlevini yerine getirmektedir. Üniversite-sanayi iş
-                birliği kapsamında, Üniversitedeki bilgi birikimi ve teknolojinin toplumun ihtiyaç duyduğu ürün veya
-                süreçlere dönüştürülmesini sağlamaktadır.
-            </div>
-        </div>
-        <div class="isbirligi-f" style="display: flex; justify-content: center;">
-            Toplumsal Katkı | Üniversite Sanayi İşbirliği
-        </div>
-        <div class="egitim-hakkinda" style="margin-top: 50px;">
-            İşbirlikleri ile ilgili daha fazla bilgi görüntüle →
-        </div>
-    </div>
-    <div class="uluslararasi">
-        <div class="uluslararasi-h">Uluslararası</div>
-        <div style="display: flex; justify-content: center; margin-top: 30px;">
-            <div class="uluslararasi-p">
-                <div class="upl">
-                    <div
-                        style="height: 96px; width: 350px; display: flex; align-items: center; justify-content: center;">
-                        <div class="upl-11">130</div>
-                        <div class="upl-12">ULUSLARARASI ANLAŞMALI ÜNİVERSİTE</div>
-                    </div>
-                    <div
-                        style="color: rgb(51, 51, 51); font-size: 18px; font-weight: 700; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: 20px;">
-                        *2023-Ağustos verileri ile</div>
-                </div>
-                <div class="upr">
-                    <div class="upr-1">Türkiye ve Fransa arasında akdedilen uluslararası anlaşma temelinde
-                        yapılandırılan Galatasaray Üniversitesi, kuruluşunun ilk gününden beri uluslararası olma
-                        vizyonuna sahiptir. Çokkültürlü yaşam ve kültürlerarası etkileşim deneyimini yerleşkede
-                        sağlamak, kültürlerarası yetkinliğe ve dünyalılık bilincine sahip bireyler yetiştirmek üzere
-                        eğitim, araştırma ve topluma katkı boyutlarında uluslararası işbirlikleri kurulmakta,
-                        geliştirilmekte ve çeşitlendirilmektedir.</div>
-                    <div class="upr-2">Detaylı bilgi→</div>
-                </div>
-            </div>
-        </div>
-        <div class="arastirma-r" style="margin-top: 50px;">
-            <div class="arastirma-card">
-                <div
-                    style="color: rgb(167, 3, 1); font-size: 56px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 700; text-align: center;">
-                    327</div>
-                <div
-                    style="color: rgb(126, 126, 126); font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center; font-weight: 700; margin-top: 10px;">
-                    GELEN ÖĞRENCİ</div>
-            </div>
-            <div class="arastirma-card">
-                <div
-                    style="color: rgb(167, 3, 1); font-size: 56px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 700; text-align: center;">
-                    174</div>
-                <div
-                    style="color: rgb(126, 126, 126); font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center; font-weight: 700; margin-top: 10px;">
-                    GİDEN ÖĞRENCİ</div>
-            </div>
-            <div class="arastirma-card">
-                <div
-                    style="color: rgb(167, 3, 1); font-size: 56px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 700; text-align: center;">
-                    374</div>
-                <div
-                    style="color: rgb(126, 126, 126); font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center; font-weight: 700; margin-top: 10px;">
-                    ULUSLARARASI ARAŞTIRMA</div>
-            </div>
-        </div>
-        <div class="egitim-hakkinda" style="margin-top: 50px;">
-            Uluslararasılıkla ilgili daha fazla bilgi →
-        </div>
-    </div>
-    <div class="kesfet">
-        <div class="kesfet-h">Keşfet</div>
-        <div style="display: flex; justify-content: center; margin-top: 30px;">
-            <div class="isbirligi-p">
-                Galatasaray Üniversitesi Yerleşkesi, Avrupa ve Asya kıtalarının birleştiği İstanbul şehrinin muhteşem
-                Boğazının kenarında ve ulaşım açısından en merkezi ilçelerinden biri olan Beşiktaş’tadır. Kentin
-                ekonomik, sosyal ve kültürel merkezlerine çok kısa mesafede olması üniversite hayatı için yerleşkeyi
-                eşsiz kılmaktadır. Beş yüz yılı aşkın bir geçmişe sahip eğitim ve öğretim yapılanmasının ulaştığı son
-                aşamayı temsil eden Galatasaray Üniversitesinin üyesi olmak şüphesiz bir ayrıcalıktır.
-            </div>
-        </div>
-        <div style="display: flex; justify-content: center;">
-            <div class="kesfet-card"
-                style="background-image: url('img-5.webp'); background-size: cover; text-align: center;">
-                <div style="margin-top: 280px;">Tarihçe</div>
-            </div>
-            <div class="kesfet-card"
-                style="background-image: url('img-6.webp'); background-size: cover; width: 576px; text-align: center;">
-                <div style="margin-top: 280px;">Yerleşkede Yaşam</div>
-            </div>
-            <div class="kesfet-card"
-                style="background-image: url('img-7.webp'); background-size: cover; text-align: center;">
-                <div style="margin-top: 280px">Ulaşım</div>
-            </div>
-        </div>
-        <div class="arastirma-r" style="margin-top: 50px;">
-            <div class="arastirma-card">
-                <div
-                    style="color: rgb(33, 37, 41); font-size: 56px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 700; text-align: center;">
-                    1994</div>
-                <div
-                    style="color: rgb(126, 126, 126); font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center; font-weight: 700; margin-top: 10px;">
-                    KURULUŞ</div>
-            </div>
-            <div class="arastirma-card">
-                <div
-                    style="color: rgb(33, 37, 41); font-size: 56px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 700; text-align: center;">
-                    4456</div>
-                <div
-                    style="color: rgb(126, 126, 126); font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center; font-weight: 700; margin-top: 10px;">
-                    ÖĞRENCİ</div>
-            </div>
-            <div class="arastirma-card">
-                <div
-                    style="color: rgb(33, 37, 41); font-size: 56px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 700; text-align: center;">
-                    15343</div>
-                <div
-                    style="color: rgb(126, 126, 126); font-size: 14px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: center; font-weight: 700; margin-top: 10px;">
-                    MEXUN</div>
-            </div>
-        </div>
-        <div class="kesfet-btn" style="margin-left: 800px; margin-top: 80px;">Galatasaray Üniversitesi'ni Keşfet</div>
-    </div>
-    <div class="bilgi">
-        <div style="display: flex; margin-left: 360px; margin-top: 80px;">
-            <div class="bilgi-card">
-                <div
-                    style="width: 576px; height: 207px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
-                    <div class="bc-h" style="display: flex;">
-                        <div
-                            style="background-image: url('img-10.png'); background-size: cover; height: 48px; width: 48px; margin-left: 30px;">
-                        </div>
-                        <div style="width: 251px; height: 34px; text-align: start; margin-left: 20px;">Sürekli Eğitim
-                            Merkezi</div>
-                    </div>
-                    <div class="bc-p">
-                        GSÜSEM tarafından yapılan sertifika programlarını detaylarına SEM sayfasında dönüşümlü şekilde
-                        yer verilmektedir.
-                    </div>
-                </div>
-            </div>
-            <div class="bilgi-card">
-                <div
-                    style="width: 576px; height: 207px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
-                    <div class="bc-h" style="display: flex;">
-                        <div
-                            style="background-image: url('img-15\ \(2\).png'); background-size: cover; height: 48px; width: 85px; margin-left: 30px;">
-                        </div>
-                        <div style="width: 251px; height: 34px; text-align: start; margin-left: 20px;">AVESİS</div>
-                    </div>
-                    <div class="bc-p">
-                        Akademik etkinlik envanteri çıkarılması, kurum, birim, bölüm ve kişi performansları ölçülerek
-                        değerlendirilebilmesi işlemleri yapılmaktadır.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="display: flex; margin-left: 360px; margin-top: 80px;">
-            <div class="bilgi-card">
-                <div
-                    style="width: 576px; height: 207px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
-                    <div class="bc-h" style="display: flex;">
-                        <div
-                            style="background-image: url('img-16.png'); background-size: cover; height: 48px; width: 85px; margin-left: 30px;">
-                        </div>
-                        <div style="width: 251px; height: 34px; text-align: start; margin-left: 20px;">Yabancı Dil
-                            Eğitimi</div>
-                    </div>
-                    <div class="bc-p">
-                        Yabancı Diller Yüksekokulu ve Kurs Merkezi ile sunulan yabancı dil olanakları hakkında ayrıntılı
-                        bilgilere web sitelerinden ulaşabilirsiniz.Yabancı Diller Yüksekokulu ve Kurs Merkezi ile
-                        sunulan yabancı dil olanakları hakkında ayrıntılı bilgilere web sitelerinden ulaşabilirsiniz.
-                    </div>
-                </div>
-            </div>
-            <div class="bilgi-card">
-                <div
-                    style="width: 576px; height: 207px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
-                    <div class="bc-h" style="display: flex;">
-                        <div
-                            style="background-image: url('img-17.png'); background-size: cover; height: 65px; width: 85px; margin-left: 30px;">
-                        </div>
-                        <div style="width: 251px; height: 34px; text-align: start; margin-left: 20px;">Kalite</div>
-                    </div>
-                    <div class="bc-p">
-                        Üniversite süreçlerinin değerlendirilmesi, geliştirilmesi, bağımsız dış değerlendirme süreciyle
-                        kalite düzeylerinin onaylanması ve tanınması konusundaki çalışmaları planlamak üzere
-                        kurulmuştur.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="display: flex; margin-left: 360px; margin-top: 80px;">
-            <div class="bilgi-card">
-                <div
-                    style="width: 576px; height: 207px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
-                    <div class="bc-h" style="display: flex;">
-                        <div
-                            style="background-image: url('img-18.png'); background-size: cover; height: 48px; width: 85px; margin-left: 30px;">
-                        </div>
-                        <div style="width: 251px; height: 34px; text-align: start; margin-left: 20px;">Mevzuat</div>
-                    </div>
-                    <div class="bc-p">
-                        Üniversitemize ait mevzuatların listesine KAYSİS üzerinden erişim sağlanmaktadır.
-                    </div>
-                </div>
-            </div>
-            <div class="bilgi-card">
-                <div
-                    style="width: 576px; height: 207px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
-                    <div class="bc-h" style="display: flex;">
-                        <div
-                            style="background-image: url('img-19.png'); background-size: cover; height: 48px; width: 48px; margin-left: 30px;">
-                        </div>
-                        <div style="width: 251px; height: 34px; text-align: start; margin-left: 20px;">Engelsiz
-                            Üniversite Birimi</div>
-                    </div>
-                    <div class="bc-p">
-                        Engelsiz Üniversite Birimi, engelli öğrenciler ile etkinlikler düzenlemektedir.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="ftr">
+    <!-- Footer Section -->
+    <footer class="ftr">
         <div class="ftr-1">
+            <!-- Footer Card: Galatasaray Üniversitesi -->
             <div class="ftr-card">
                 <ul id="myList4">
-                    <li
-                        style="color: rgb(51, 51, 51); font-size: 18px; font-weight: 700; margin-bottom: 14px; display: flex;">
+                    <li style="display: flex;" class="ftr-header">
+                        <!-- Logo for Galatasaray Üniversitesi -->
                         <div
                             style="background-image: url('gs.png'); background-size: cover; width: 38px; height: 50px;">
                         </div>
+                        <!-- Text for Galatasaray Üniversitesi -->
                         <div style="margin-top: 15px; margin-left: 10px;">Galatasaray Üniversitesi</div>
                     </li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 8px;">Çırağan Caddesi No:36
-                        34349</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 14px;">Ortaköy/İstanbul</li>
-                    <li style="color: rgb(51, 51, 51); font-size: 15px; margin-bottom: 14px; font-weight: 800;">(+90)
-                        212 227 4480</li>
-                    <li style="color: rgb(167, 4, 2); font-size: 15px; margin-bottom: 14px; font-weight: 400;">
-                        gsu.edu.tr</li>
+                    <!-- Address and Contact Information for Galatasaray Üniversitesi -->
+                    <li style="margin-bottom: 8px;" class="ftr-grey">Çırağan Caddesi No:36 34349</li>
+                    <li class="ftr-grey">Ortaköy/İstanbul</li>
+                    <li style="color: rgb(51, 51, 51); font-weight: 800;" class="ftr-grey">(+90) 212 227 4480</li>
+                    <li style="color: rgb(167, 4, 2); font-weight: 400;" class="ftr-grey">gsu.edu.tr</li>
                 </ul>
             </div>
+            <!-- Footer Card: Fakülteler -->
             <div class="ftr-card">
                 <ul id="myList">
-                    <li style="color: rgb(51, 51, 51); font-size: 18px; font-weight: 700; margin-bottom: 14px;">
-                        Fakülteler</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 14px;">İktisadi ve İdari
+                    <li class="ftr-header">Fakülteler</li>
+                    <li class="ftr-grey">İktisadi ve İdari
                         Bilimler Fakültesi</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 14px;">Hukuk Fakültesi</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 14px;">İletişim Fakültesi</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 14px;">Mühendislik ve
+                    <li class="ftr-grey">Hukuk Fakültesi</li>
+                    <li class="ftr-grey">İletişim Fakültesi</li>
+                    <li class="ftr-grey">Mühendislik ve
                         Teknoloji Fakültesi</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 14px;">Fen-Edebiyat Fakültesi
+                    <li class="ftr-grey">Fen-Edebiyat Fakültesi
                     </li>
                 </ul>
             </div>
+            <!-- Footer Card: Enstitüler -->
             <div class="ftr-card">
                 <ul id="myList2">
-                    <li style="color: rgb(51, 51, 51); font-size: 18px; font-weight: 700; margin-bottom: 14px;">
+                    <li class="ftr-header">
                         Enstitüler</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 14px;">Fen Bilimleri Enstitüsü
+                    <li class="ftr-grey">Fen Bilimleri Enstitüsü
                     </li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 14px;">Sosyal Bilimler
+                    <!-- List of Institutes -->
+                    <li class="ftr-grey">Sosyal Bilimler
                         Enstitüsü</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 14px;">Öğrenci Kabul & Başvuru
+                    <li class="ftr-grey">Öğrenci Kabul & Başvuru
                     </li>
+                    <!-- Horizontal Line -->
                     <li>
-                        <hr
-                            style="background-color: (105, 105, 105); border-bottom-color: rgb(105, 105, 105); border-bottom-style: none; height: 1px; opacity: .25;">
+                        <hr class="grey-hr">
                     </li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 14px;">Denizcilik Meslek
+                    <li class="ftr-grey">Denizcilik Meslek
                         Yüksekokulu</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 14px;">Yabancı Diller
+                    <li class="ftr-grey">Yabancı Diller
                         Yüksekokulu</li>
                 </ul>
             </div>
+            <!-- Footer Card: Üniversite -->
             <div class="ftr-card">
                 <ul id="myList3">
-                    <li style="color: rgb(51, 51, 51); font-size: 18px; font-weight: 700; margin-bottom: 12px;">
-                        Üniversite</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 12px;">GSÜ Hakkında</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 12px;">Kütüphane</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 12px;">Bilgi Edinme</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 12px;">Personel Rehberi</li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 12px;">Sık Sorulan Sorular
-                    </li>
-                    <li style="color: rgb(105, 105, 105); font-size: 15px; margin-bottom: 12px;">Gizlilik</li>
+                    <li class="ftr-header">Üniversite</li>
+                    <!-- List of University Information -->
+                    <li class="ftr-grey" style="margin-bottom: 12px;">GSÜ Hakkında</li>
+                    <li class="ftr-grey" style="margin-bottom: 12px;">Kütuphane</li>
+                    <li class="ftr-grey" style="margin-bottom: 12px;">Bilgi Edinme</li>
+                    <li class="ftr-grey" style="margin-bottom: 12px;">Personel Rehberi</li>
+                    <li class="ftr-grey" style="margin-bottom: 12px;">Sık Sorulan Sourlar</li>
+                    <li class="ftr-grey" style="margin-bottom: 12px;">Gizlilik</li>
                 </ul>
             </div>
         </div>
+        <!-- Footer Section 2 -->
         <div class="ftr-2">
             <div style="height: 94px; width: 1200px; display: flex;">
-                <div class="ftr-2p" style="margin-top: 30px; margin-right: 80px; margin-left: 0px;">© 2023 Bilgi İşlem
+                <div class="ftr-2p">© 2023 Bilgi İşlem
                     Daire Başkanlığı</div>
                 <div style="display: flex; align-self: flex-end; margin-bottom: 30px; margin-left: 600px;">
-                    <div class="circle"
-                        style="margin-right: 10px; display: flex; align-items: center; justify-content: center;"><i
-                            style="font-size:24px; color: rgb(105, 105, 105);" class="fa">&#xf099;</i></div>
-                    <div class="circle"
-                        style="margin-right: 10px; display: flex; align-items: center; justify-content: center;"><i
-                            style="font-size:24px; color: rgb(105, 105, 105);" class="fa">&#xf16d;</i></div>
-                    <div class="circle" style=" display: flex; align-items: center; justify-content: center;"><i
-                            style="font-size:24px; color: rgb(105, 105, 105);" class="fa">&#xf16a;</i></div>
+                    <div class="circle" style="margin-right: 10px;" id="my-icon">
+                        <i id="my-fa" class="fa">&#xf099;</i>
+                    </div>
+                    <div class="circle" style="margin-right: 10px;" id="my-icon">
+                        <i id="my-fa" class="fa">&#xf16d;</i>
+                    </div>
+                    <div class="circle" id="my-icon">
+                        <i id="my-fa" class="fa">&#xf16a;</i>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
+    <!-- Here we remove identification symbols for list elements-->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            var myList = document.getElementById("myList");
-            var listItems = myList.getElementsByTagName("li");
+            var listIds = ["myList", "myList2", "myList3", "myList4", "myList5", "myList6", "myList7", "myList10", "myList11", "myList12"];
 
-            for (var i = 0; i < listItems.length; i++) {
-                listItems[i].style.listStyleType = "none";
-            }
-            var myList = document.getElementById("myList2");
-            var listItems = myList.getElementsByTagName("li");
+            listIds.forEach(function (id) {
+                var myList = document.getElementById(id);
+                var listItems = myList.getElementsByTagName("li");
 
-            for (var i = 0; i < listItems.length; i++) {
-                listItems[i].style.listStyleType = "none";
-            }
-            var myList = document.getElementById("myList3");
-            var listItems = myList.getElementsByTagName("li");
-
-            for (var i = 0; i < listItems.length; i++) {
-                listItems[i].style.listStyleType = "none";
-            }
-            var myList = document.getElementById("myList4");
-            var listItems = myList.getElementsByTagName("li");
-
-            for (var i = 0; i < listItems.length; i++) {
-                listItems[i].style.listStyleType = "none";
-            }
-            var myList = document.getElementById("myList5");
-            var listItems = myList.getElementsByTagName("li");
-
-            for (var i = 0; i < listItems.length; i++) {
-                listItems[i].style.listStyleType = "none";
-            }
-            var myList = document.getElementById("myList6");
-            var listItems = myList.getElementsByTagName("li");
-
-            for (var i = 0; i < listItems.length; i++) {
-                listItems[i].style.listStyleType = "none";
-            }
-            var myList = document.getElementById("myList7");
-            var listItems = myList.getElementsByTagName("li");
-
-            for (var i = 0; i < listItems.length; i++) {
-                listItems[i].style.listStyleType = "none";
-            }
-            var myList = document.getElementById("myList10");
-            var listItems = myList.getElementsByTagName("li");
-
-            for (var i = 0; i < listItems.length; i++) {
-                listItems[i].style.listStyleType = "none";
-            }
-            var myList = document.getElementById("myList11");
-            var listItems = myList.getElementsByTagName("li");
-
-            for (var i = 0; i < listItems.length; i++) {
-                listItems[i].style.listStyleType = "none";
-            }
-            var myList = document.getElementById("myList12");
-            var listItems = myList.getElementsByTagName("li");
-
-            for (var i = 0; i < listItems.length; i++) {
-                listItems[i].style.listStyleType = "none";
-            }
+                for (var i = 0; i < listItems.length; i++) {
+                    listItems[i].style.listStyleType = "none";
+                }
+            });
         });
     </script>
 </body>
